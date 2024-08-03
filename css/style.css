@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*-------------Menu-------------*/
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 80px 0px 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #202020;
+}
+nav ul li a:hover{
+    color: #2529f3;
+}
+nav ul li a:visited{
+    color: #202020;
+}
+/*------------------Body----------------*/
+
+body{
+    background-color: #f7efe0;
+}
+
+.principal{
+    width: 1366px;
+    margin: 0 auto;
+}
+.titulo{
+    background: url(../image/cara_Beatles.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-size: 60px;
+    padding-bottom: 350px;
+}
+
+p,a,h2,h3{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+#historia{
+    margin-top: 50px;
+}
+.inicios{
+ display: flex;
+ align-items: center;
+}
+.inicios div{
+    margin-left: 25px;
+    text-align: right;
+}
+
+.beatlemania{
+    display: flex;
+    align-items: center;
+}
+.beatlemania div{
+   width: 850px;
+   margin-left: 20px;
+}
+
+.final{
+    display: flex;
+    align-items: center;
+}
+.final div{
+    margin-left: 25px;
+    text-align: right;
+}
+.ali_derecha{
+text-align: right;
+}
+.bold{
+    font-weight: 800;
+}
+.doowap{
+    display: flex;
+}
+.doowap div{
+    margin: 0px 10px;
+}
+footer{
+    display: flex;
+    margin-top: 50px;
+}
+
+/*------------------Tabs----------------*/
+.ui-widget-content {
+background: #f7efe0 !important ;
+border: 0px !important;
+}
+.ui-state-hover .ui-tabs-active .ui-state-active{
+    background: #fbe1b2 !important;
+}
+.ui-state-default{
+    background: #f7efe0 !important;
+}
+.ui-state-hover{
+    background: #fbe1b2 !important;
+}
+.ui-widget-header {
+background: #f7efe0 !important;
+border: 0px !important;
+}
+#tabs-1, #tabs-2, #tabs-3, #tabs-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.no-list{
+    list-style: none;
+}
+
+/*------------------Pagina Discografia----------------*/
+
+.discografia{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-size: 60px;
+}
+.disco{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+.disco img{
+    margin-top: 100px;
+}
+.disco h2{
+    margin: 0px 0px 50px 10px;
+    font-size: 48px;
+}
+.disco_texto{
+    display: flex;
+}
+.disco_texto p{
+ margin-left: 10px;
+}
+.disco p{
+    margin: 0px 0px 0px 10px;
+}
+.disco_texto div h3:first-of-type{
+    font-size: 32px;
+    text-decoration:underline;
+}
+
+#absoluta{
+	position:absolute;
+	padding-left:0px;
+	display:none;
+	margin:0;
+	top:60px;
+    right: 160px;
+}
+#absoluta li{
+	margin: 0px;
+	position:relative;
+	background: #fbe1b2;
+	border:solid 1px #f7efe0;
+}
+#absoluta li a{
+	color:#202020;
+}
+#absoluta li a:hover{
+	color:#2529f3;
+}
+	
+ul #lista:hover #absoluta{
+	display:block;
+	margin:0;
+}
+
+/*---------------------Formulario------------------------*/
+
+.formulario {
+    display: flex;
+    align-items: center;
+    accent-color: #dbbe88;
+}
+label{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.formulario div{
+    margin: 20px;
+}
+#enviar{
+    width: 100px;
+    margin: 0px 160px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+#numero{
+    width: 65px;
+}
+ .instruccion{
+    border-left: solid 3px #dbbe88;
+    margin-left: 80px;
+    padding-left: 80px;
+}
+.formulario div ul{
+    width: 680px;
+    
+}
+.formulario span{
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.tex-centro{
+    text-align: center;
+    width: 1300px;
+}
+/*-----------------SORTEO--------------*/
+.sorteo{
+    background: url(../image/cara_Beatles.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 350px;
+}
+
+/*-------------------------------------------MOBILE---------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+    /*------------------Body----------------*/
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 12px;
+    }
+    li{
+        list-style: none;
+    }
+    .principal{
+        width: 460px;
+        margin: 0 auto;
+    }
+ 
+    .titulo{
+        background: url(../image/cara_Beatles_mobile.webp);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        text-align: center;
+        font-family: "Merriweather", serif;
+        font-style: normal;
+        font-size: 24px;
+        padding-bottom: 120px;
+    }
+
+    .menu{
+        display: flex;
+        margin: 23px;
+        justify-content: flex-start;
+    }
+    .inicios{
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+       }
+       .inicios div{
+        margin-left: auto;
+        text-align: center;
+    }
+    .beatlemania{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .beatlemania div{
+       width: 460px;
+       margin-left:auto;
+    }
+    .final{
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .final div{
+        margin-left: auto;
+        text-align: center;
+    }
+    .beatlemania iframe{
+        width: 460px;
+    }
+    .ali_derecha{
+        text-align: center;
+    }
+
+/*------------------Tabs----------------*/
+    .ui-tabs-nav, .ui-corner-all, .ui-helper-reset, .ui-helper-clearfix, .ui-widget-header{
+        display: grid;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+    }
+    .no-list{
+        font-size: 12px;
+    }
+/*------------------Doowap----------------*/
+    .doowap{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .doowap div ul{
+        
+        padding: 0px;
+    }
+/*------------------Pagina Discografia----------------*/
+.discografia{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-size: 24px;
+}
+.disco {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.disco img{
+    margin-top: auto;
+}
+.disco h2 {
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.disco h3{
+    font-size: 18px;
+    text-align: center;
+    margin: 5px 0px;
+}
+.disco p{
+    margin: 5px 0px;
+    font-size: 12px;
+    text-align: center;
+}
+div > p:nth-child(6),div > p:nth-child(5),div > p:nth-child(4),div > p:nth-child(7), div > p:nth-child(8){
+    font-weight: bold;
+}
+
+.sptf_mobile{
+    left: 0px !important;
+    width: 100% !important;
+    height: 360px !important; 
+    bottom: -10px !important;
+}
+#absoluta {
+    top: 65px;
+    right: 160px;
+}
+/*---------------------Formulario------------------------*/
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.instruccion{
+    border-left:none;
+    border-bottom:  solid 3px #dbbe88;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.formulario div ul{
+    width: auto;
+    padding: 0px;
+    
+}
+.sorteo{
+    background: url(../image/cara_Beatles_mobile.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 120px;
+}
+.tex-centro{
+    width: auto;
+}
+}

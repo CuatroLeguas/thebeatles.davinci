@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beatles</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+    <body>
+        <header>
+            <nav>
+                <div class="menu">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./discografia.html">Discografia</a>
+                        </li>
+                        <li><a href="#">Formulario</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="principal">
+            <div class="discografia">
+        <h1>¡Sé parte de la leyenda con esta remera!</h1>
+        </div>
+        <section>
+            <article>
+                <h2 class="tex-centro">Para participar, envía una foto creativa donde se vea claramente tu conexión con The Beatles. ¡Muéstranos tu lado más Beatle!</h2>
+                <div class="formulario">
+                    <form action="gracias.html" method="post" enctype="multipart/form-data">
+                        <div>
+                            <label for="nombre">Nombre: </label>
+                            <input id="nombre" name="nombre" placeholder="Nombre" type="text" required>
+                        </div>
+                        <div>
+                            <label for="apellido">Apellido: </label>
+                            <input id="apellido" name="apellido" placeholder="Apellido" type="text" required>
+                        </div>
+                        <div>
+                            <label for="email">Email: </label>
+                            <input id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                        <div>
+                            <label for="tel">Tel: </label>
+                            <input id="tel" name="email" placeholder="Tel (Opcional)" type="tel">
+                        </div>
+                        <div>
+                            <label for="direccion">Direccion: </label>
+                            <input id="direccion" name="direccion" placeholder="Calle" type="text" required>
+                            <label for="numero">N°: </label>
+                            <input id="numero" name="numero" placeholder="Numero" type="number" required>
+                        </div>
+                        <div>
+                            <label>Color Remera: </label>
+                            <input name="color" type="color">
+                        </div>
+                        <div>
+                            <span>Taller Remera: </span>
+                            <label>XS: <input name="talle" type="radio" value="XS" required checked></label>
+                            <label>S: <input name="talle" type="radio" value="S"></label>
+                            <label>M: <input name="talle" type="radio" value="M"></label>
+                            <label>L: <input name="talle" type="radio" value="L"></label>
+                            <label>XL: <input name="talle" type="radio" value="XL"></label>
+                            
+                        </div>
+                        <div>
+                            <label>Foto: </label>
+                            <input name="imagen" type="file" accept="image/jpeg,image/png,image/jpg" required>
+                        </div>
+                        <div>
+                            <span>¿Como nos conociste? (Puede selec mas de uno)</span>
+                            <input id="fb" type="checkbox" name="llego_desde" value="facebook">
+                            <label for="fb">Facebook</label>
+                            <input id="ig" type="checkbox" name="llego_desde" value="instagram">
+                            <label for="ig">Instagram</label>
+                            <input id="wp" type="checkbox" name="llego_desde" value="whatsapp">
+                            <label for="wp">Whatsapp</label>
+                        </div>
+                        <div>
+                            <input id="web" type="checkbox" name="llego_desde" value="Web">
+                            <label for="web">Web</label>
+                            <input id="prop" type="checkbox" name="llego_desde" value="Propaganda">
+                            <label for="prop">Propaganda</label>
+                            <input id="publi" type="checkbox" name="llego_desde" value="Publicidad internet">
+                            <label for="publi">Publicidad internet</label>
+                        </div>
+                        <div>
+                            <input type="submit" id="enviar" value="Enviar">
+                        </div>
+                    </form>
+                    <div class="instruccion">
+                    <h3>Instrucciones para participar:</h3>
+                    <ul>
+                        <li>
+                            <p>La foto debe incluir una clara referencia a The Beatles. Esto puede ser cualquier cosa, desde un póster, un disco, una camiseta, un instrumento musical asociado a ellos, o incluso una representación artística o un dibujo inspirado en la banda.</p>
+                        </li>
+                        <li>
+                            <p>Si bien se valora la creatividad, es importante que la foto sea original y tomada por el participante. No se aceptarán imágenes descargadas de internet o que infrinjan derechos de autor.</p>
+                        </li>
+                        <li>
+                            <p> La foto debe tener una resolución adecuada para poder ser visualizada claramente. Evita fotos borrosas, con poca luz o con elementos que distraigan.</p>
+                        </li>
+                        <li>
+                            <p>Incluye una breve descripción de su foto, explicando por qué eligieron esa imagen o qué significa para ellos The Beatles.</p>
+                        </li>
+                    </ul>
+                    <p>La imagen mas original ganara el sorteo de una remera autografiada de Los Beatles!</p>
+                </div>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <ul>
+                <li><p><span class="bold">Nombre:</span> Masoco, Angel Nicolás</p></li>
+                <li><p><span class="bold">Materia:</span> Maquetado y desarrollo Web</p></li>
+            </ul>
+            <ul>
+                <li><p><span class="bold">Profesora:</span> Mabel García</p></li>
+                <li><p>Este trabajo es una entrega para el final del primer cuatrimestre del año 2024</p></li>
+            </ul> 
+        </footer>
+        </div>
+    </body>
+</html>
